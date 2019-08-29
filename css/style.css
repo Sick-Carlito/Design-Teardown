@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  display: inline-block;
+  height: 8rem;
+  background-color: rgb(152, 152, 152);
+  width: 100%;
+}
+
+.logo {
+  width: 13%;
+  margin: auto 10px;
+  height: 90%;
+  box-sizing: border-box;
+  background-color: rgb(168, 168, 168);
+}
+
+.nav ul {
+  margin-left: 250px;
+}
+
+.nav ul li {
+  float: left;
+  margin-left: 30px;
+  margin-top: -44px;
+  text-align: center;
+  background-color: rgb(109, 106, 106);
+}
+
+.search {
+  float: right;
+  margin-right: 100px;
+  margin-top: -70px;
+  color: #fff;
+  background-color: rgb(109, 106, 106);
+} 
+
+.title {
+  font-family:' Mija';
+}
+
+.caption p {
+  font-style: italic;
+}
