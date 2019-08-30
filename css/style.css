@@ -55,3 +55,144 @@ ul {
 .caption p {
   font-style: italic;
 }
+
+section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.div1 {
+  background-color: #787775;
+  height: 600px;
+}
+
+.div2 {
+  background-color: #807d7a;
+  height: 600px;
+}
+
+.div3 {
+  background-color: #575451;
+  height: 600px;
+}
+
+.div4 {
+  background-color: #877d73;
+  height: 600px;
+}
+
+h3 {
+  margin-left: 600px;
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h4 {
+  margin-left: 655px;
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h3 {
+  float: right;
+  margin-top: 20px;
+}
+
+h1 {
+  background-color: #adaca8;
+  margin-top: 90px;
+  width: 250px;
+  margin-left: 70px;
+}
+
+.div1 p {
+  margin-left: 70px;
+  font-size: 40px;
+  padding-right: 70px;
+  margin-top: 30px;
+  background-color: #363534;
+  width: 350px;
+  color: white;
+}
+
+.div1 ul li h1 {
+  display: inline-block;
+  font-size: 15px;
+  width: 100px;
+  margin-left: 70px;
+  color: white;
+}
+
+.div2 p {
+  margin-left: 70px;
+  font-size: 40px;
+  padding-right: 70px;
+  margin-top: 30px;
+  background-color: #363534;
+  width: 350px;
+  color: white;
+}
+
+.div2 ul li h1 {
+  display: inline-block;
+  font-size: 15px;
+  width: 100px;
+  margin-left: 70px;
+  color: white;
+}
+
+.div3 p {
+  margin-left: 70px;
+  font-size: 40px;
+  padding-right: 70px;
+  margin-top: 30px;
+  background-color: #363534;
+  width: 350px;
+  color: white;
+}
+
+.div3 ul li h1 {
+  display: inline-block;
+  font-size: 15px;
+  width: 100px;
+  margin-left: 70px;
+  color: white;
+}
+
+.div4 p {
+  margin-left: 70px;
+  font-size: 40px;
+  padding-right: 70px;
+  margin-top: 30px;
+  background-color: #363534;
+  width: 350px;
+  color: white;
+}
+
+.div4 ul li h1 {
+  display: inline-block;
+  font-size: 15px;
+  width: 100px;
+  margin-left: 70px;
+  color: white;
+}
+
+.div5 {
+  height: 600px;
+  background-color: #363331;
+  display: grid;
+  grid-template-columns: 2fr 3fr
+}
+
+.banner {
+  background-color: #141413;
+  margin-top: 40px;
+  margin-right: 30px;
+  height: 500px;
+  border-radius: 10px;
+}
