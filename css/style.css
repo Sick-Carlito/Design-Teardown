@@ -6,6 +6,8 @@
 
 body {
   width: 100%;
+  color: #fff;
+  font-family: 'Roboto',sans-serif;
 }
 
 a {
@@ -18,45 +20,93 @@ ul {
 }
 
 .nav {
-  display: inline-block;
+  display: flex;
   height: 8rem;
   background-color: rgb(152, 152, 152);
-  width: 100%;
 }
+
+.nav-list a,
+.search {
+  color: rgb(255, 255, 255);
+}
+
 
 .logo {
   width: 13%;
   margin: auto 10px;
   height: 90%;
-  box-sizing: border-box;
   background-color: rgb(168, 168, 168);
 }
 
-.nav ul {
-  margin-left: 250px;
+.nav-list {
+  display: flex;
 }
 
-.nav ul li {
-  float: left;
-  margin-left: 25px;
-  margin-top: -44px;
+.nav-list li {
+  margin: auto 20px;
+}
+
+.button {
+  width: 8%;
+  margin: auto 10px;
+  height: 40%;
+  box-sizing: border-box;
+  background-color: rgb(168, 168, 168);
   text-align: center;
-  background-color: rgb(109, 106, 106);
 }
 
-.search {
-  float: right;
-  margin-right: 100px;
-  margin-top: -70px;
-  color: #fff;
-  background-color: rgb(109, 106, 106);
-} 
+.button .search {
+  height: 40px;
+  line-height: 40px;
+}
+
+.main {
+  margin-bottom: 40px;
+}
 
 .title {
-  font-family:' Mija';
-  margin-top: 0px;
+  font-family:'Roboto',sans-serif;
+  text-align: center;
 }
 
 .caption p {
   font-style: italic;
+}
+
+.latest-post {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(169, 169, 169);
+}
+
+.post {
+  width: 33.33333333%;
+  height: 580px;
+  background-color: rgb(169, 169, 169);
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.post .time {
+  display: inline;
+  font-size: .8em;
+  background-color: rgb(184, 184, 184);
+}
+
+.post .header {
+  background-color: rgb(102, 102, 102);
+  margin-top: 5.33%;
+  margin-bottom: 5%;
+}
+
+.post .author {
+  display: inline;
+  background-color: rgb(192, 192, 192);
+}
+
+.post .content {
+  font-size: 1.5em;
+  padding-right: 8px;
+  background-color: rgb(132, 132, 132);
+  margin-top: 5.33%;
 }
