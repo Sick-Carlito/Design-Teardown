@@ -218,17 +218,22 @@ ul {
   margin-top: 5.33%;
 }
 
-.div5 {
+.small-banner {
   height: 600px;
-  background-color: #363331;
-  display: grid;
-  grid-template-columns: 2fr 3fr;
+  margin-left: 2%;
+  width: 31%;
 }
 
-.banner {
-  background-color: #141413;
-  margin-top: 40px;
-  margin-right: 30px;
-  height: 500px;
+.small-banner .text {
+  background-color: rgb(124, 124, 124);
+  width: 55%;
+  margin: 0 20%;
+  height: 8%;
+}
+
+.post.banner {
+  background-color: rgb(72, 72, 72);
   border-radius: 10px;
+  width: 80%;
+  margin-right: 1.6666666%;
 }
