@@ -8,7 +8,7 @@ body {
   max-width: 100%;
   color: #fff;
   background-color: #787775;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -66,7 +66,7 @@ ul {
 }
 
 .title {
-  font-family:'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -80,13 +80,13 @@ ul {
 }
 
 .head {
-   background-color: rgb(88, 88, 88);
-   position: absolute;
-   top: 200px;
-   width: 26%;
-   right: 37%;
-   left: 37%;
-   text-align: center;
+  background-color: rgb(88, 88, 88);
+  position: absolute;
+  top: 200px;
+  width: 26%;
+  right: 37%;
+  left: 37%;
+  text-align: center;
 }
 
 .div1,
@@ -192,6 +192,163 @@ ul {
   margin-right: 1.6666666%;
 }
 
+.banner-content {
+  background-color: #575752;
+  height: 50px;
+  width: 500px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.banner-header {
+  background-color: #6b6b67;
+  width: 300px;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.banner-sign-in {
+  background-color: #6b6b67;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.div6 {
+  background-color: #504f4e;
+}
+
+.div6 h2 {
+  color: white;
+  font-size: 30px;
+  background-color: #adaca8;
+  text-align: center;
+  margin-left: 400px;
+  width: 600px;
+  margin-top: 10px;
+}
+
+.div6 p {
+  color: white;
+  width: 400px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  background-color: #686864;
+  margin-left: 500px;
+
+}
+
+.div6 h1 {
+  width: 350px;
+  height: 40px;
+  margin-left: 530px;
+  background-color: #adaca8;
+}
+
+.div6 img {
+  width: 300px;
+  height: 300px;
+  margin-left: 560px;
+  margin-top: 40px;
+}
+
+.div7 {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  background-color: #787775;
+}
+
+.div7 h2 {
+  height: 300px;
+  background-color: #a0a09a;
+  width: 300px;
+  margin-top: 60px;
+  margin: 20px;
+  color: white;
+
+}
+
+.div7 p {
+  background-color: #6b6b67;
+  height: 400px;
+  margin-top: 10px;
+  margin: 20px;
+  width: 900px;
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.div8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80%;
+  background-color: #a09d9c;
+  margin-bottom: 50px;
+}
+
+.div8 h2 {
+  background-color: #72726e;
+  width: 250px;
+  margin-left: 200px;
+  margin-top: 20px;
+  color: white;
+}
+
+.div8 h1 {
+  background-color: #adaca8;
+  margin-top: 10px;
+  margin-left: 200px;
+  color: white;
+  width: 300px;
+}
+
+.div8 p {
+  background-color: #615f5d;
+  margin: 40px auto 50px 200px;
+  width: 350px;
+  font-size: 25px;
+  color: white;
+}
+
+.div8 img {
+  height: 80px;
+  width: 80px;
+  margin-top: -350px;
+  margin-left: 30px;
+  background-color: grey;
+  float: left;
+}
+
+.div9 {
+  background-color: #141413;
+  height: 400px;
+}
+
+.div9 h2 {
+  margin-left: 210px;
+  width: 300px;
+  color: white;
+  padding-top: 30px;
+  width: 300px;
+}
+
+.div9 p {
+  padding-top: 20px;
+  background-color: #323331;
+  width: 700px;
+  margin-left: 210px;
+  margin-top: 30px;
+  color: white;
+  font-size: 25px;
+}
+
+.div9 h1 {
+  margin-top: 50px;
+  margin-left: 210px;
+}
+
 .design {
   height: 300px;
   margin-left: 30px;
@@ -215,7 +372,7 @@ ul {
   line-height: 25px;
 }
 
-.design .button{
+.design .button {
   background-color: rgb(102, 102, 102);
   margin-top: 30px;
   font-size: 30px;
@@ -241,15 +398,16 @@ ul {
 }
 
 .guides ul li {
-   justify-content: space-between;
-   font-size: 20px;
-   line-height: 32px;
-   list-style: disc;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 32px;
+  list-style: disc;
 }
 
-.guides h1,.guides h4 {
-   background-color: rgb(102, 102, 102);
-   margin-top: 30px;
+.guides h1,
+.guides h4 {
+  background-color: rgb(102, 102, 102);
+  margin-top: 30px;
 }
 
 .guides h4 {
