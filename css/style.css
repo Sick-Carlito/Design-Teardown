@@ -236,7 +236,7 @@ ul {
   margin-left: 500px;
 }
 
-.div6 h1 {
+.div6 .blank {
   width: 350px;
   height: 40px;
   margin-left: 530px;
@@ -284,7 +284,7 @@ ul {
   margin-bottom: 50px;
 }
 
-.div8 h2 {
+.div8 .heading {
   background-color: #72726e;
   width: 250px;
   margin-left: 200px;
@@ -292,7 +292,7 @@ ul {
   color: white;
 }
 
-.div8 h1 {
+.div8 h2 {
   background-color: #adaca8;
   margin-top: 10px;
   margin-left: 200px;
