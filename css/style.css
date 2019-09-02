@@ -31,7 +31,6 @@ ul {
   color: rgb(255, 255, 255);
 }
 
-
 .logo {
   width: 13%;
   margin: auto 10px;
@@ -117,7 +116,6 @@ ul {
   height: 40%;
   text-align: left;
   width: 65%;
-
 }
 
 .author {
@@ -163,7 +161,7 @@ ul {
 
 .post .time {
   display: inline;
-  font-size: .8em;
+  font-size: 0.8em;
   background-color: rgb(184, 184, 184);
 }
 
@@ -236,7 +234,6 @@ ul {
   font-size: 25px;
   background-color: #686864;
   margin-left: 500px;
-
 }
 
 .div6 h1 {
@@ -263,17 +260,16 @@ ul {
   height: 300px;
   background-color: #a0a09a;
   width: 300px;
-  margin-top: 60px;
   margin: 20px;
+  margin-top: 60px;
   color: white;
-
 }
 
 .div7 p {
   background-color: #6b6b67;
   height: 400px;
-  margin-top: 10px;
   margin: 20px;
+  margin-top: 10px;
   width: 900px;
   font-size: 30px;
   padding: 20px;
